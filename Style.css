@@ -4,29 +4,43 @@ body {
     background-color: #f4f4f9;
 }
 
-h1, h2 {
+h1 {
     color: #333;
+    background-color: #ffcccb;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    background-color: #d4edda;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .key {
-    margin: 10px 0;
-    padding: 10px;
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 15px;
     border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #fff;
+    border-radius: 50px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .key:hover {
-    background-color: #e9ecef;
+    background-color: #0056b3;
 }
 
 .key-title {
     font-weight: bold;
-    color: #007bff;
 }
 
 .key-description {
-    margin-left: 20px;
-    color: #555;
+    display: none;
 }
