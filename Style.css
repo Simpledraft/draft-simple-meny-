@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.key {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.key:hover {
+    background-color: #e9ecef;
+}
+
+.key-title {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.key-description {
+    margin-left: 20px;
+    color: #555;
+}
